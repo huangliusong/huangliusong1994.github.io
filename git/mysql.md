@@ -34,7 +34,7 @@
 
 > grep "password" /var/log/mysqld.log 
 
-![img](F:/youdaoyun/qq9E39E34A12563ACF377EC09CDD9E3B46/9c36bf9f31b341788b2c89b3677a7800/6-1932560887.png) 
+![img](jj.png) 
 
 用这个密码登录
 
