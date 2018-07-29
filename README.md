@@ -8,6 +8,10 @@
 
 ## 2.[centos7安装mysql](/git/mysql.md)
 
+## 3.[mycat - mysql操作与使用](/mycat/mycat_cz.md)
+
+## 4.[mycat-水平切分](/mycat/mycat_sp.md)
+
 ```markdown
  git remote add origin HTTPS链接
  
