@@ -4,14 +4,14 @@
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+这个所有的配置都是使用Markdown高亮语法，可以更加清晰的展现配置信息！
 
 ```markdown
-Syntax highlighted code block
+语法高亮代码块
 
-# Header 1
-## Header 2
-### Header 3
+# 标题1
+## 标题2
+### 标题 3
 
 - Bulleted
 - List
@@ -26,12 +26,12 @@ Syntax highlighted code block
 
 [git提交操作代码](/git/git.md)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/huangliusong1994/huangliusong1994.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Jekyll 皮肤
 
-### Support or Contact
+您的页面站点将使用您在存储库设置中选择的Jykyl主题的布局和样式。 此主题的名称保存在Jekyll的 _config.yml’配置文件中。
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 技术支持和联系
+
+网页有问题吗？看看我们的[文件](https://help.github.com/categories/github-pages-basics/) 或[联系人支持](https://github.com/contact) 我会帮你解决的。
