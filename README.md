@@ -1,8 +1,6 @@
 ## 欢迎来到黄柳淞的配置！
 
-You can use the [editor on GitHub](https://github.com/huangliusong1994/huangliusong1994.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+平时工作中，需要很多的配置，这种配置都已经写在有道云笔记，开源中国的博客，但每次打开软件都会很卡，而且打开博客，很难找到自己的的配置且广告非常多，因此希望自己搭建一个博客系统，把自己经常用到的配置放在这些干净的GitHub页面。
 
 ### Markdown
 
