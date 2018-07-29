@@ -15,6 +15,10 @@
 
 ## 6.[CentOS7 搭建影梭服务器](/ys/ys.md)
 
+## 7.[一键安装脚本screen -S ss](/ys/ys.md)
+
+## 8.[hexo配置](/hexo/hexo.md)
+
 ```markdown
  git remote add origin HTTPS链接
  
