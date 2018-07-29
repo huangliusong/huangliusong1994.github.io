@@ -12,6 +12,8 @@
 
 ## 4.[mycat-水平切分](/mycat/mycat_sp.md)
 
+## 5.[centos-jdk安装](/jdk/jdk.md)
+
 ```markdown
  git remote add origin HTTPS链接
  
