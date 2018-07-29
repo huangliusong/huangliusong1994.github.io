@@ -8,7 +8,9 @@
 
 
 # 文档目录
-## 1.[git提交操作代码](/git/git.md)
+## 1. [git提交操作代码](/git/git.md)
+
+## 2.[centos7安装mysql](/git/mysql.md)
 
 ```markdown
  git remote add origin HTTPS链接
