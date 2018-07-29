@@ -19,6 +19,11 @@
 
 ## 8.[hexo配置](/hexo/hexo.md)
 
+## 9.[jdk+mysql+tomcat](/hexo/jdk+mysql+tomcat.md)
+
+## 10.[docker使用](/docker/docker.md)
+
+## 10.[书单](/book/book.md)
 ```markdown
  git remote add origin HTTPS链接
  
