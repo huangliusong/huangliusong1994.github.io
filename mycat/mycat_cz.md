@@ -1,3 +1,4 @@
+# 垂直切分
 ## 安装
 > wget http://dl.mycat.io/1.6.5/Mycat-server-1.6.5-release-20180122220033-linux.tar.gz
 
