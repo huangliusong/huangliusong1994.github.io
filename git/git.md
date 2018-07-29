@@ -1,4 +1,4 @@
-# git连接
+# git提交操作代码
 + 1.cd到你的项目目录
 > $ cd /Users/mac/Desktop/GitTest  
 + 2.然后,输入git命令:
