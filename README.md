@@ -1,4 +1,4 @@
-## 欢迎来到黄柳淞的配置！
+# 欢迎来到黄柳淞的配置！
 
 # 文档目录
 ## 1. [git提交操作代码](/git/git.md)
@@ -10,6 +10,8 @@
 ## 4.[mycat-水平切分](/mycat/mycat_sp.md)
 
 ## 5.[centos-jdk安装](/jdk/jdk.md)
+
+## 5.[CentOS7 搭建影梭服务器](/ys/ys.md)
 
 ```markdown
  git remote add origin HTTPS链接
