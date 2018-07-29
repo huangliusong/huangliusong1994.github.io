@@ -24,6 +24,17 @@
 ## 10.[docker使用](/docker/docker.md)
 
 ## 10.[书单](/book/book.md)
+
+
+
+### Jekyll 皮肤
+
+您的页面站点将使用您在存储库设置中选择的Jykyl主题的布局和样式。 此主题的名称保存在Jekyll的 _config.yml’配置文件中。
+
+### 技术支持和联系
+
+网页有问题吗？看看我们的[文件](https://help.github.com/categories/github-pages-basics/) 或[联系人支持](https://github.com/contact) 我会帮你解决的。
+
 ```markdown
  git remote add origin HTTPS链接
  
@@ -37,12 +48,3 @@
 
  git remote rm origin
 ```
-
-
-### Jekyll 皮肤
-
-您的页面站点将使用您在存储库设置中选择的Jykyl主题的布局和样式。 此主题的名称保存在Jekyll的 _config.yml’配置文件中。
-
-### 技术支持和联系
-
-网页有问题吗？看看我们的[文件](https://help.github.com/categories/github-pages-basics/) 或[联系人支持](https://github.com/contact) 我会帮你解决的。
