@@ -1,5 +1,5 @@
 git add .
 
-git commit -m "不写什么了"
+git commit -m "no dec"
 
 git push -u origin master -f
