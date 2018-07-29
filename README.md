@@ -11,7 +11,7 @@
 
 ## 5.[centos-jdk安装](/jdk/jdk.md)
 
-## 5.[CentOS7 搭建影梭服务器](/ys/ys.md)
+## 6.[CentOS7 搭建影梭服务器](/ys/ys.md)
 
 ```markdown
  git remote add origin HTTPS链接
