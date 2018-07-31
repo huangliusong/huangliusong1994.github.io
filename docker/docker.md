@@ -100,8 +100,8 @@ from  hub.c.163.com/library/tomcat:latest
 8.停止docker sudo docker stop 42
 9.重启 docker restart 12fjkfdjkf
 
-centos搭建Docker
-http://note.youdao.com/noteshare?id=344b45198af274752fb54356fe66d3d3&sub=A90E474AC8954737BD3F4CAD2253AB12
+[centos搭建Docker](http://note.youdao.com/noteshare?id=344b45198af274752fb54356fe66d3d3&sub=A90E474AC8954737BD3F4CAD2253AB12
+)
 
 
 
