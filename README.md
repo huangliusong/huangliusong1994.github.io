@@ -23,7 +23,11 @@
 
 ## 10.[docker使用](/docker/docker.md)
 
-## 11.[书单](/book/book.md)
+## 11.[nginx使用](/nginx/nginx.md)
+
+## 12.[书单](/book/book.md)
+
+
 
 
 ### Jekyll 皮肤
