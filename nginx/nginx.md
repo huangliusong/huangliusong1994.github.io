@@ -15,3 +15,11 @@ location =/nginx_status{
 }
 ~~~
 
+3.docker中的nginx没有vi命令？
+
+~~~
+apt-get update
+apt-get install vim
+apt-get install vi
+~~~
+
