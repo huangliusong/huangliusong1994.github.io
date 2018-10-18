@@ -27,8 +27,7 @@
 
 ## 12.[书单](/book/book.md)
 
-
-
+## 12.[Java GC](/gc/gc.md)
 
 ### Jekyll 皮肤
 
