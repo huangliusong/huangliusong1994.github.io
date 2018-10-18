@@ -23,3 +23,15 @@ apt-get install vim
 apt-get install vi
 ~~~
 
+4.关闭nginx
+
+> nginx -s stop
+
+5.启动nginx
+
+> nginx -s start
+
+6.重启nginx
+
+> nginx -s reload
+
