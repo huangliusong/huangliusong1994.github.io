@@ -96,3 +96,73 @@ SourceFile: "Test.java"
 
 ~~~
 
+## 代码优化
+
+1.尽量使用基本类型而不是包装类型
+
+> 编译器会进行Integer.valueOf()
+
+2.尽量重用对象，不要循环创建对象
+
+3.容器类初始化的时候指定长度
+
+~~~
+List list=new ArrayList(2) 
+~~~
+
+
+
+4.arrayList随机遍历快，LinkedList添加删除快
+
+5.集合遍历尽量减少重复计算
+
+~~~
+for(int i=0,len=collection.size();i<len;i++)
+~~~
+
+6.使用Entry遍历Map
+
+~~~
+for(Map.Entry<String,String> entry:map.entrySet()){
+    String key=entry.getKey();
+    String value=entry.getValue();
+}
+~~~
+
+7.不要手动调用System.gc()
+
+8.及时消除过期对象的引用，防止内存泄漏
+
+9.尽量使用局部变量，减少遍历的作用域
+
+10.尽量使用ArrayList自己加同步而不使用Vector
+
+11.尽量使用同步代码块而不是方法上加synchronized 
+
+12.ThreadLocal缓存线程不安全的对象，SampleDateFormat
+
+13.尽量延迟加载
+
+14.尽量减少反射，加缓存
+
+15.尽量使用连接池，线程池，对象池，缓存
+
+16.及时释放资源，IO流，Socket，数据库连接。
+
+17.慎用异常不要用抛异常表示正常的逻辑
+
+18.String尽量少用正则表达式
+
+> replace	replaceAll	
+>
+> split
+
+19.输出日志使用不停的级别
+
+20.日志中参数拼接使用占用福
+
+~~~
+log.info("orderId:"+order);    不推荐
+log.info("orderId,{}",order);   推荐
+~~~
+
