@@ -2,19 +2,19 @@
 
 mac环境
 
-## 安装resit
+## 安装resit  
 1. 查询镜像   
 >  docker search redis
 
-2. 拉取官方的镜像
+2. 拉取官方的镜像  
 > docker pull redis
 
 
-3.查看一下是否成功：
+3.查看一下是否成功：  
 > docker images
 
 
-4.启动镜像：
+4.启动镜像：  
 > docker run -p 6379:6379 -d redis:latest redis-server
 
 
@@ -34,7 +34,7 @@ redis-server --appendonly yes : 在容器执行redis-server启动命令，并打
 > 查看容器启动情况：docker ps
 
 
-连接redis的几种方式：
+连接redis的几种方式：  
 
 > docker exec -ti d0b86 redis-cli
 
@@ -53,7 +53,7 @@ docker inspect redis_s | grep IPAddress
 
 
 
-如果连接远程：
+如果连接远程：  
 
 ~~~
 docker exec -it redis_s redis-cli -h 192.168.1.100 -p 6379 -a your_password //如果有密码 使用 -a参数
