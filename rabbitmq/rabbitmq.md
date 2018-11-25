@@ -36,3 +36,17 @@
 
 > admin
 
+# 使用RabbitMQ
+
+1.查看队列
+
+>  rabbitmqctl  list_queues
+
+2.查看host
+
+> rabbitmqctl  list_vhosts
+
+3.查看状态 
+
+> rabbitmqctl  status
+
