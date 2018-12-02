@@ -48,5 +48,10 @@
 
 3.查看状态 
 
-> rabbitmqctl  status
+> rabbitmqctl  
 
+4.查看exchange
+
+> rabbitmqctl list_exchanges
+
+[更多详情](https://www.cnblogs.com/yufeng218/p/9452621.html)
