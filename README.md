@@ -3,6 +3,7 @@
 平时工作中，需要很多的配置，这种配置都已经写在有道云笔记，开源中国的博客，但每次打开软件都会很卡，而且打开博客，很难找到自己的的配置且广告非常多，因此希望自己搭建一个博客系统，把自己经常用到的配置放在这些干净的GitHub页面。
 
 # 文档目录
+
 ## 1. [git提交操作代码](/git/git.md)
 
 ## 2.[centos7安装mysql](/git/mysql.md)
@@ -37,7 +38,9 @@
 
 ## 17.[rabbitmq](/rabbitmq/rabbitmq.md)
 
-## 17.[docker-oracle](/oracle/oracle.md)
+## 18.[docker-oracle](/oracle/oracle.md)
+
+## 19.[cmd](/cmd/cmd.md)
 
 ### Jekyll 皮肤
 
