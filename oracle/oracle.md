@@ -109,3 +109,37 @@ spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
 - [qida/oracle-xe-11g](https://dev.aliyun.com/detail.html?spm=5176.1972343.2.16.mwrZbe&repoId=5682)
 - [在 Docker 上配置 Oracle](http://blog.csdn.net/zhousenshan/article/details/53072537)
 - [docker-oracle-xe-11g-demo](https://github.com/muumin/docker-oracle-xe-11g-demo)
+
+
+
+\##安装
+
+docker shell 下：
+
+```
+docker pull wnameless/oracle-xe-11g
+```
+
+运行，并开放 49160 和 49161 端口，分别对应 22 端口和 oracle 端口（SSH 和 oracle 数据库）
+
+```
+docker run -d -p 49160:22 -p 49161:1521 wnameless/oracle-xe-11g
+```
+
+数据库信息如下：
+
+```
+hostname: localhost
+port: 49161
+sid: xe
+username: system
+password: oracle
+```
+
+SYSTEM和SYS的初始密码都为 `oracle`
+
+Container SSH 的 root 密码为`admin`。
+
+需要说明的是，在 OS X 上通过 SSH 连接 docker container 使用的是 docker 的 ip 而不是 localhost。
+
+安装完毕之后，就可以通过客户端配置上述数据库信息来连接数据库了。图为 OS X 下 SQL Developer 连接 Docker 中数据库的配置界面。
