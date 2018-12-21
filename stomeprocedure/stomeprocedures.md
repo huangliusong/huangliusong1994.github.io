@@ -76,3 +76,24 @@ end
 go
 ~~~
 
+## 5.定义变量/赋初值
+
+~~~
+declare @hlsname  varchar(12)
+set @hlsname='hls1'
+if @hlsname='hls'
+	print 'hls'
+else
+	print 'no hls'
+~~~
+
+## 6.获取当前日期
+
+> last_upd_date_dt=getdate()
+
+## 7.游标使用
+
+~~~
+?
+~~~
+
