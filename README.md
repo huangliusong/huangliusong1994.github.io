@@ -42,7 +42,7 @@
 
 ## 19.[cmd](/cmd/cmd.md)
 
-## 20.[存储过程](/stomeprocedure/stomeprocedure.md)
+## 20.[存储过程](/stomeprocedure/stomeprocedures.md)
 
 ### Jekyll 皮肤
 
