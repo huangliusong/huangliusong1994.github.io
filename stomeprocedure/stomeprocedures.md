@@ -94,6 +94,63 @@ else
 ## 7.游标使用
 
 ~~~
-?
+use db
+
+SET ANSI_NULLS ON
+
+set ansi_nulls on
+
+
+set quoted_identifier on
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+begin--start cursor
+declare @a_a_c_c_ varchar(18)
+declare @a_no_c_  varchar(18)
+declare @b_n_e_c_ varchar(18)
+declare @b_n_c_c_ varchar(18)
+declare @d_a_n_c_ varchar(18)
+	begin--start define cursor
+		declare hls_cursor cursor for 
+		select app_code_c,to_account_no_c,brokerage_name_eng_c,brokerage_name_chi_c,disp_account_no_c
+		from bh_alert_master
+		
+		open hls_cursor
+		
+		fetch next from hls_cursor into 
+		@a_a_c_c_,
+		@a_no_c_,
+		@b_n_e_c_,
+		@b_n_c_c_,
+		@d_a_n_c_
+		while (@@FETCH_STATUS<>-1)
+		begin--start cursor while
+			if (@a_a_c_c_='G')
+				print ' : '+@a_no_c_+' : '+@a_a_c_c_
+			else
+				print '>>'+@a_no_c_
+			fetch next from hls_cursor into 
+			@a_a_c_c_,
+			@a_no_c_,
+			@b_n_e_c_,
+			@b_n_c_c_,
+			@d_a_n_c_
+		end--end cursor while
+		DEALLOCATE hls_cursor
+	end--end define cursor
+end--end cursor
+
+
+
 ~~~
 
+注意：
+
+> SET ANSI_NULLS  ON
+
+这些是 SQL-92 设置语句，使 SQL Server 2000/2005 遵从 SQL-92 规则。
+当 SET QUOTED_IDENTIFIER 为 ON 时，标识符可以由双引号分隔，而文字必须由单引号分隔。当 SET QUOTED_IDENTIFIER 为 OFF 时，标识符不可加引号，且必须符合所有 Transact-SQL 标识符规则。  
+SQL-92 标准要求在对空值进行等于 (=) 或不等于 (<>) 比较时取值为 FALSE。当 SET ANSI_NULLS 为 ON 时，即使 column_name 中包含空值，使用 WHERE column_name = NULL 的 SELECT 语句仍返回零行。即使 column_name 中包含非空值，使用 WHERE column_name <> NULL 的 SELECT 语句仍会返回零行。  
+当 SET ANSI_NULLS 为 OFF 时，等于 (=) 和不等于 (<>) 比较运算符不遵从 SQL-92 标准。使用 WHERE column_name = NULL 的 SELECT 语句返回 column_name 中包含空值的行。使用 WHERE column_name <> NULL 的 SELECT 语句返回列中包含非空值的行。此外，使用 WHERE column_name <> XYZ_value 的 SELECT 语句返回所有不为 XYZ_value 也不为 NULL 的行。
