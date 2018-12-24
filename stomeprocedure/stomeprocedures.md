@@ -154,3 +154,26 @@ end--end cursor
 当 SET QUOTED_IDENTIFIER 为 ON 时，标识符可以由双引号分隔，而文字必须由单引号分隔。当 SET QUOTED_IDENTIFIER 为 OFF 时，标识符不可加引号，且必须符合所有 Transact-SQL 标识符规则。  
 SQL-92 标准要求在对空值进行等于 (=) 或不等于 (<>) 比较时取值为 FALSE。当 SET ANSI_NULLS 为 ON 时，即使 column_name 中包含空值，使用 WHERE column_name = NULL 的 SELECT 语句仍返回零行。即使 column_name 中包含非空值，使用 WHERE column_name <> NULL 的 SELECT 语句仍会返回零行。  
 当 SET ANSI_NULLS 为 OFF 时，等于 (=) 和不等于 (<>) 比较运算符不遵从 SQL-92 标准。使用 WHERE column_name = NULL 的 SELECT 语句返回 column_name 中包含空值的行。使用 WHERE column_name <> NULL 的 SELECT 语句返回列中包含非空值的行。此外，使用 WHERE column_name <> XYZ_value 的 SELECT 语句返回所有不为 XYZ_value 也不为 NULL 的行。
+
+
+
+## 8.isnull
+
+~~~
+1.isnull(参数1，参数2) 判断参数1 是否为NULL，如果是 返回参数2 否则返回参数1.
+  
+2.isnull(列名，0)<>0: 先判断 列名是否为null ,然后再与0比较 等于零返回结果为True 否则为False
+
+isnull(value1,value2)
+
+    1、value1与value2的数据类型必须一致。
+
+    2、如果value1的值不为null，结果返回value1。
+
+    3、如果value1为null，结果返回vaule2的值。vaule2是你设定的值。
+~~~
+
+## 9.SET NOCOUNT ON;
+
+> SET NOCOUNT ON; 表示关闭输出多少行受影响
+
