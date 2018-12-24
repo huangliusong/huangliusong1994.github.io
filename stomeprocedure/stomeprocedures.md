@@ -4,9 +4,9 @@
 
 ~~~
 if exists(select * from dbo.sysobjects where id = object_id(N'[dbo].[aaa_hls]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
-​	print 'exists'
+	print 'exists'
 else
-​	print 'no exists'
+	print 'no exists'
 ~~~
 
 
@@ -157,7 +157,7 @@ SQL-92 标准要求在对空值进行等于 (=) 或不等于 (<>) 比较时取�
 
 
 
-## 8.isnull
+## 8.ISNULL
 
 ~~~
 1.isnull(参数1，参数2) 判断参数1 是否为NULL，如果是 返回参数2 否则返回参数1.
