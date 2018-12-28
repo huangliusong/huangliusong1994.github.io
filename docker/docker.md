@@ -7,6 +7,7 @@
 ## 查看镜像
 > docker images
 ## 查看运行情况
+
 > docker ps -a
 ## 移除镜像
 > docker rm 65e94723f0ed
@@ -111,3 +112,37 @@ from  hub.c.163.com/library/tomcat:latest
  mysql -uapp_net -p123456 -P8066 -h192.168.1.135
 
 https://blog.csdn.net/tang_jin2015/article/details/78898780
+
+
+
+## 提交自己的docker镜像
+
+## 1.注册账号，用自己的账号
+
+[点击注册](https://hub.docker.com/?ref=login)
+
+## 2.使用Docker hub账号在验证本地登录
+
+> docker login
+
+输入输入账号密码
+
+## 3.先`docker images`看看本地的镜像
+
+> docker images
+
+## 4.修改tag
+
+如果REPOITORY的名不是你Docker hub账号和仓库，即`Docker ID/仓库名`，是上传不成功的
+
+当然可以使用`docker tag 镜像ID 用户名称/镜像源名(repository name):新的标签名(tag)`来更改 
+
+> docker tag 镜像ID 用户名称/镜像源名(repository name):新的标签名(tag)`
+
+## 5.使用`docker inspect`查看获取容器/镜像的元数据。
+
+> docker push<hub-user>/<repo-name>:<tag>
+
+## 6.登录到自己的Docker hub上验证
+
+[更多详情](https://blog.csdn.net/qq_39629343/article/details/80158275)
