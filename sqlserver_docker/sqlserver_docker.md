@@ -51,3 +51,17 @@
 可以用这个：
 
 > SELECT name FROM  master..sysdatabases
+
+## 5.生成查询语句
+
+~~~
+--Generate SQL to query all table names
+SELECT 'use '+name,'  SELECT name as tablename,'''+name+''' as dbname FROM SysObjects Where XType=''U'' ' 
+FROM  master..sysdatabases where name like '%库模糊匹配%'
+
+
+--Generate SQL to query all table SP
+SELECT 'use '+name,'  SELECT name as tablename,'''+name+''' as dbname FROM SysObjects Where XType=''P'' ' 
+FROM  master..sysdatabases where name like '%库模糊匹配%'
+~~~
+
