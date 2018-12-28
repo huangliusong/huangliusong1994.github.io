@@ -47,3 +47,7 @@
 ## 4.查询所有的库名字
 
 > select * from sysdatabases;
+
+可以用这个：
+
+> SELECT name FROM  master..sysdatabases
