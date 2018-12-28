@@ -25,3 +25,21 @@
 >  -Q 'ALTER LOGIN SA WITH PASSWORD="<YourNewStrong!Passw0rd>"'
 
 [更多详情点击访问链接，访问官网文档](https://docs.microsoft.com/zh-cn/sql/linux/quickstart-install-connect-docker?view=sql-server-2017)
+
+
+
+# sqlserver系统表的使用
+
+## 1.利用sysobjects系统表
+
+> select * from sysobjects where xtype='U'
+
+## 2.利用Sql语句查询数据中的所有存储过程
+
+> select * from sysobjects where xtype='P'
+
+
+
+## 3.查询数据库中所有的用户表
+
+>  select * from sys.tables
