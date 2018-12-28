@@ -43,3 +43,7 @@
 ## 3.查询数据库中所有的用户表
 
 >  select * from sys.tables
+
+## 4.查询所有的库名字
+
+> select * from sysdatabases;
