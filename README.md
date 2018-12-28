@@ -22,7 +22,7 @@
 
 ## 9.[jdk+mysql+tomcat](/hexo/jdk+mysql+tomcat.md)
 
-## 10.[docker使用](/docker/docker.md)
+## 10.[docker使用](/docker/docker_index.md)
 
 ## 11.[nginx使用](/nginx/nginx.md)
 
