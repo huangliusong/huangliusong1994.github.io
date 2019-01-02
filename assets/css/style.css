@@ -531,6 +531,7 @@ header h1 {
     width: 540px;
     margin-top: 0;
     margin-bottom: 0.2em;
+    /* header的字体大小 huangliusong1994.github.io */
     font-size: 52px;
     font-weight: normal;
     line-height: 1;
@@ -638,7 +639,7 @@ pre {
     padding: 20px;
     overflow: auto;
     text-shadow: none;
-    background: #fff;
+    /* background: #fff; */
     border: solid 1px #f2f2f2
 }
 
