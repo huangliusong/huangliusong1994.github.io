@@ -639,7 +639,7 @@ pre {
     padding: 20px;
     overflow: auto;
     text-shadow: none;
-    /* background: #fff; */
+    background: #fff;
     border: solid 1px #f2f2f2
 }
 
