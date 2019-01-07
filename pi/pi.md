@@ -5,9 +5,12 @@
 ## 1.树莓派引脚对照表
 ![树莓引脚](/images/20181108083724411.png)
 
+
+
 # centos安装homebridge
 
-
+## 1.修改密码
+> passwd
 ## 2.更新linux安装源
 > yum update
 ## 3.查看
