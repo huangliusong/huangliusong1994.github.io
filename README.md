@@ -46,7 +46,9 @@
 
 ## 21.[zookeeper](/zookeeper/zookeeper.md)
 
+## 22.[scp传送文件](/scp/scp.md)
 
+## 23.[树莓派](/pi/pi.md)
 
 ### Jekyll 皮肤
 
