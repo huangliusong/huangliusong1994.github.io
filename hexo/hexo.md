@@ -131,6 +131,7 @@ hexo server --port=4001
 ## create hexo container,just run:
 
 > docker run  -d --name some-hexo -p 4000:4000  ipple1986/hexo
+> docker run -d  -p 4000:4000 huangliusong/huangliusong-hexo:hls-hexo
 
 ## enter the hexo container ,just run:
 > docker exec -it some-hexo bash
