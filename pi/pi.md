@@ -7,8 +7,7 @@
 
 # centos安装homebridge
 
-## 1.修改密码
-> passwd
+
 ## 2.更新linux安装源
 > yum update
 ## 3.查看
@@ -35,4 +34,3 @@
 >  homebridge
 ## 14.look it
 ![执行homebridge出现二维码](/images/WechatIMG43.png)
-![config-json](/images/WechatIMG39.png)
