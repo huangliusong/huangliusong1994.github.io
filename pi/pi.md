@@ -34,5 +34,5 @@
 ## 13.
 >  homebridge
 ## 14.look it
-![](/images/WechatIMG43.png)
-![](/images/WechatIMG39.png)
+![执行homebridge出现二维码](/images/WechatIMG43.png)
+![config-json](/images/WechatIMG39.png)
