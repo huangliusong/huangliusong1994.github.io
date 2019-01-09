@@ -10,14 +10,15 @@
 
 ## 3.修改XMind.ini文件，在后面添加
 > -javaagent:/Applications/XMind.app/Contents/Eclipse/XMindCrack.jar
+
 （如果你的是win，那在其安装目录下找到相应的XMind.ini文件修改就好了）
 
 并且把破解文件XMindCrack.jar放在这里  
 ![破解文件密码: rzxq](/images/WechatIMG55.png) 
 
-[破解文件下载（）](https://pan.baidu.com/s/1jqpodMvKQTNQyenAIy0Y3w)
+[破解文件下载](https://pan.baidu.com/s/1jqpodMvKQTNQyenAIy0Y3w)
 
-[过期或者没有密码联系](1138127608@qq.com)
+[过期或者没有密码联系1138127608@qq.com](1138127608@qq.com)
 
 ## 4.修改host文件
 执行如下命令，其后两行添加内容
