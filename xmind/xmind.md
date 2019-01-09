@@ -15,9 +15,9 @@
 并且把破解文件XMindCrack.jar放在这里  
 ![破解文件密码: rzxq](/images/WechatIMG55.png) 
 
-[破解文件路径](https://pan.baidu.com/s/1jqpodMvKQTNQyenAIy0Y3w)
+[破解文件下载（）](https://pan.baidu.com/s/1jqpodMvKQTNQyenAIy0Y3w)
 
-
+[过期或者没有密码联系](1138127608@qq.com)
 
 ## 4.修改host文件
 执行如下命令，其后两行添加内容
