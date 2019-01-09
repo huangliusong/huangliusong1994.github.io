@@ -4,6 +4,7 @@
 [官网下载最新的安装包 XMind For Mac](https://www.xmind.cn/download/xmind8/)
 
 ## 2.安装成功后，查看xmind.app包内容
+![右击xmmind.app查看包中内容](/images/WechatIMG54.png)
 
 
 ## 3.修改XMind.ini文件，在后面添加
