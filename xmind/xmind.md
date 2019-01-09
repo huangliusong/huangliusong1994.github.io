@@ -7,9 +7,13 @@
 ![右击xmmind.app查看包中内容](/images/WechatIMG54.png)
 
 
+
 ## 3.修改XMind.ini文件，在后面添加
 > -javaagent:/Applications/XMind.app/Contents/Eclipse/XMindCrack.jar
 （如果你的是win，那在其安装目录下找到相应的XMind.ini文件修改就好了）
+
+并且把破解文件XMindCrack.jar放在这里  
+![破解文件](/images/WechatIMG55.png)  
 
 
 ## 4.修改host文件
