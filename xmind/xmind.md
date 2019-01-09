@@ -13,7 +13,10 @@
 （如果你的是win，那在其安装目录下找到相应的XMind.ini文件修改就好了）
 
 并且把破解文件XMindCrack.jar放在这里  
-![破解文件](/images/WechatIMG55.png)  
+![破解文件密码: rzxq](/images/WechatIMG55.png) 
+
+[破解文件路径](https://pan.baidu.com/s/1jqpodMvKQTNQyenAIy0Y3w)
+
 
 
 ## 4.修改host文件
@@ -26,7 +29,7 @@
 ~~~
 
 ## 5.打开xmind输入邮箱和序列号
-![输入邮箱和序列号图（邮箱随便）](/images/WechatIMG53.png)
+![输入邮箱和序列号图（邮箱随便）https://blog.csdn.net/u011154007/article/details/81669379](/images/WechatIMG53.png)
 
 ~~~
 XAka34A2rVRYJ4XBIU35UZMUEEF64CMMIYZCK2FZZUQNODEKUHGJLFMSLI QMQUCUBXRENLK6NZL37JXP4PZXQFILMQ2RG5R7G4QNDO3PSOEUBOCDRYSSXZGR ARV6MGA33TN2AMUBHEL4FXMWYTTJDEINJXUAV4BAYKBDCZQWVF3LWYXSDCXY5 46U3NBGOI3ZPAP2SO3CSQFNB7VVIY123456789012345
