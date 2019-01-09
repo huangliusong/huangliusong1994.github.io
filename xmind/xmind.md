@@ -21,9 +21,10 @@
 [过期或者没有密码联系1138127608@qq.com](1138127608@qq.com)
 
 ## 4.修改host文件
-执行如下命令，其后两行添加内容
+执行如下命令
 > sudo vim /private/etc/hosts
 
+其后两行添加内容
 ~~~
 127.0.0.1 xmind.net
 127.0.0.1 www.xmind.net
