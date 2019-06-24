@@ -62,7 +62,7 @@
 
 通过Navicat工具需要设置远程登录账号密码
 
-> grant all privileges  on *.* to root@'%' identified by "root";
+> grant all privileges on *.* to root@'%' identified by 'root'
 
 可以查看一下，不看就不看了
 
