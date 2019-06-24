@@ -32,7 +32,9 @@
 
  此时MySQL已经开始正常运行，不过要想进入MySQL还得先找出此时root用户的密码，通过如下命令可以在日志文件中找出密码： 
 
-> grep "password" /var/log/mysqld.log 
+~~~
+ grep "password" /var/log/mysqld.log 
+~~~
  
 ![img](/images/mysql.png) 
 
