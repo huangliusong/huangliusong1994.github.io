@@ -49,8 +49,9 @@
 >  set global validate_password_length=1;
 
 修改密码：
-
-> ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
+~~~
+ ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
+~~~
 
  但此时还有一个问题，就是因为安装了Yum Repository，以后每次yum操作都会自动更新，需要把这个卸载掉：
 
