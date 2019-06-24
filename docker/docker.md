@@ -65,6 +65,8 @@
 
 进入容器内部
 > docker exec -it f4 bash
+如果没有bash可以用sh
+> docker exec -it f4 sh
 
 退出容器
 > exit
