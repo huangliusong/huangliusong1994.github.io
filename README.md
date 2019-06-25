@@ -52,7 +52,7 @@
 
 ## 24.[xmind](/xmind/xmind.md)
 
-## 25.[zip](/p/zip.md)
+## 25.[zip](/zip/zip.md)
 
 ###
 
