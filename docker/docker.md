@@ -147,4 +147,6 @@ https://blog.csdn.net/tang_jin2015/article/details/78898780
 
 ## 6.登录到自己的Docker hub上验证
 
+[Docker hub](https://hub.docker.com/u/huangliusong)
+
 [更多详情](https://blog.csdn.net/qq_39629343/article/details/80158275)
