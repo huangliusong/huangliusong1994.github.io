@@ -52,6 +52,10 @@
 
 ## 24.[xmind](/xmind/xmind.md)
 
+## 25.[zip](/p/zip.md)
+
+###
+
 ### Jekyll 皮肤
 
 您的页面站点将使用您在存储库设置中选择的Jykyl主题的布局和样式。 此主题的名称保存在Jekyll的 _config.yml’配置文件中。
