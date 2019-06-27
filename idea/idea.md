@@ -8,7 +8,7 @@
 
 
 
-##2. idea.vmoptions文件中最后一行
+## 2. idea.vmoptions文件中最后一行
 
 > -javaagent:JetbrainsCrack-3.1-release-enc.jar
 
