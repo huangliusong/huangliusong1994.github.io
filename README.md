@@ -54,7 +54,7 @@
 
 ## 25.[zip](/zip/zip.md)
 
-
+## 26.[IDEA破解](/idea/idea.md)
 
 ### Jekyll 皮肤
 
