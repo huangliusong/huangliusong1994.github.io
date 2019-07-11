@@ -1,4 +1,5 @@
 # git提交操作代码
+
 + 1.cd到你的项目目录
 > $ cd /Users/mac/Desktop/GitTest  
 + 2.然后,输入git命令:
@@ -18,3 +19,12 @@
 > git push -u origin master -f
 + 移除远程连接
 > git remote rm origin
+
++ 查看用户名以及邮箱，使用git config命令
+
+> git config user.email
+
++ 修改用户名以及邮箱，使用git config 命令的—global参数
+>  git config --global user.name "your name"
+
+> git config --global user.email "your email"
