@@ -76,5 +76,6 @@
  git push -u origin master -f
 
  git remote rm origin
+ 
 ```
 
