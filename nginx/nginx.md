@@ -1,20 +1,30 @@
 #  nginx安装
 ### 下载
-  ~~~
-  wget https://nginx.org/download/nginx-1.15.2.tar.gz
-  ~~~
+~~~
+wget https://nginx.org/download/nginx-1.15.2.tar.gz
+~~~
 ### 解压
-  ~~~
-  tar -zxvf nginx-1.15.2.tar.gz 
-  cd nginx-1.15.2
-  ~~~
+~~~
+tar -zxvf nginx-1.15.2.tar.gz 
+cd nginx-1.15.2
+~~~
 ### 安装
-  ~~~
-  ./configure
-  # 编译安装(默认安装在/usr/local/nginx)
-  make
-  make install
-  ~~~
+~~~
+./configure 
+# 编译安装(默认安装在/usr/local/nginx)
+make
+make install
+
+启动Nginx：
+/usr/local/nginx/sbin/nginx
+~~~
+
+## 放入html到/usr/local/nginx/html/
+/usr/local/nginx/html/
+然后直接访问ip地址，比如：http://192.168.0.110/
+如果能看到如下Nginx主页说明安装ok。
+
+
 
 ### nginx操作
 ~~~
@@ -39,12 +49,6 @@ nginx默认监听80端口，如果未关闭防火墙需要配置iptables规则�
 
 
   
-## 放入html到/usr/local/nginx/html/
-  /usr/local/nginx/html/
-  
-  
-然后直接访问ip地址，比如：http://192.168.0.110/，如果能看到如下Nginx主页说明安装ok。
-
 
 ------------------------------
 
