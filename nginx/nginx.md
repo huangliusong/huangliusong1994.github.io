@@ -47,7 +47,12 @@ nginx默认监听80端口，如果未关闭防火墙需要配置iptables规则�
 或者关闭iptables规则：iptables -F && iptables -t nat -F
 ~~~
 
+### ngnix 80->443
+~~~
+rewrite ^(.*)$ https://$host$1  permanent
 
+return      301 https://$server_name$request_uri;      //这是nginx最新支持的写法
+~~~
   
 
 ------------------------------
