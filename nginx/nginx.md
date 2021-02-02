@@ -34,6 +34,9 @@ make install
 /usr/local/nginx/sbin/nginx -s stop
 重启Nginx：
 /usr/local/nginx/sbin/nginx -s reload
+
+window下使用命令杀死nginx进程
+taskkill /im nginx.exe /f
 ~~~
 
 
